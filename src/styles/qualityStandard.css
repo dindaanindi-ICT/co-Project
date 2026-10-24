@@ -1,0 +1,34 @@
+.standards-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+  margin: 1rem;
+}
+
+.standard-item {
+  display: flex;
+  gap: 1rem;
+}
+
+.standard-icon {
+  width: 48px;
+  height: 48px;
+  background-color: var(--accent-light);
+  color: var(--accent);
+  border-radius: var(--radius-md);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.standard-title {
+  font-size: 1.125rem;
+  color: var(--primary);
+  margin-bottom: 0.25rem;
+}
+
+.standard-description {
+  color: var(--text-muted);
+  font-size: 0.875rem;
+}
